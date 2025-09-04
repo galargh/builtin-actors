@@ -15,7 +15,7 @@ concurrency:
 jobs:
   # Create/update a draft release if this is a release creating push event
   draft:
-    uses: ipdxco/unified-github-workflows/.github/workflows/releaser.yml@v1.0
+    uses: ipdxco/unified-github-workflows/.github/workflows/releaser.yml@galargh-patch-8
     with:
       sources: '["Cargo.toml"]'
       draft: true
